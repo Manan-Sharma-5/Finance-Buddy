@@ -5,7 +5,6 @@ app = Flask(__name__)
 def merge_models():
     if request.method == "POST":
         input_data = request.form["input"]
-
         # Your code to merge the machine learning models goes here
         result = "Your result here"
 

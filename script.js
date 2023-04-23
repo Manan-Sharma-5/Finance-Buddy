@@ -27,7 +27,6 @@ function updateChart() {
     acc.data.push(expense.amount);
     return acc;
   }, { labels: [], data: [] });
-
   new Chart(ctx, {
     type: 'pie',
     data: {
